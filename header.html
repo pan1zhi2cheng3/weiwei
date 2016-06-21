@@ -1,0 +1,187 @@
+<meta charset="UTF-8">
+	<div class="header">
+  		<div class="header-top">
+  		    <ul class="search">
+  					<li class="wxin"><img src="img/icon/wx.png"/></li>
+  					<li class="gz"><p>关注</p>
+  						<span class="fa fa-caret-down"></span>
+	  					
+	  					<div class="gzz">
+	  					  <div class="wb"><a href="#">
+	  					    <img class="wb1"src="img/icon/xl.gif"/>
+	  					    <p class="wb2">为为网官方微博 </p></a>
+	  					  </div>
+	  					  <div class="wx"><a href="#">
+	  					     <img class="wx1"src="img/icon/weixin.gif" />
+	  					     <p class="wx2">扫一扫加微信</p></a>
+	  					  </div>
+	  					  <div class="wxm">
+	  					     <img src="img/icon/erweima.gif"/>
+	  					  </div>
+	  					</div>
+  					</li>
+  					
+  					<li class="khd">
+  						<span class="fa fa-mobile-phone">
+  							</span><a href="#">手机客户端</a></li>
+  			</ul>
+  			
+  			<ul class="log">
+  				<li class="zuce"><a  id="user" href="login.html">登陆</a></li>
+  				<li><a class="zuce1" href="register.html">注册</a></li>
+  				<li><a href="register.html">我的为为</a></li>
+  				<li><a href="shopping.html">购物车(0)</a></li>
+  				<li><a href="#">收藏夹</a></li>
+  				<li><a href="#">帮组中心</a></li>
+  				<li><a href="#">网站地图</a></li>
+  			</ul>
+  		</div>
+  		<div class="header-bottom">
+  			<div class="pic">
+  				<div class="www">
+  					<a href="#"><img src="img/icon/www.png"/></a>
+  				</div>
+	  			  <div class="bd">
+	  				<ul class="sech">
+	  					<li class="sech1">商品</li>
+	  					<li>文章</li>
+	  					<li>图片</li>
+	  				</ul>
+	  				    <form class="txt1" method="post/get" action="">
+		  					<input class="txt" type="text" />
+		  					<p class="txt2">搜索</p>
+		  				</form>
+	  		      </div>
+  			</div>
+        <div class="write">
+    			<ul class="pc">
+    			<li class="on"><a href="#">首页</a></li>
+  		  		 <li class="sele">
+  		  			<a href="#">家居商城</a>
+  		  		  		<div class="sele1">
+  		  		  			<p class="sele2"><a href="#">家具城</a></p>
+  		  		  			<p><a href="#">建材城</a></p>
+  		  		  			<p><a href="#">家居城</a></p>
+  		  		 	    </div>
+  		  		 </li>
+  		  		<li class="sele3">
+  		  			<a href="#">装修攻略</a>
+  		  			<div class="sele4">
+  		  		  		<p class="sele2"><a href="#">家具城</a></p>
+  		  		  		<p><a href="#">建材城</a></p>
+  		  		  		<p><a href="#">家居城</a></p>
+  		  		 	</div>
+  		  		</li>
+  		  		<li class="sele5">
+  		  			<a href="#">装修图库</a>
+  		  			<div class="sele6">
+  		  		  		<p class="sele2"><a href="#">家具城</a></p>
+  		  		  		<p><a href="#">建材城</a></p>
+  		  		  		<p><a href="#">家居城</a></p>
+  		  		 	</div>
+  		  		</li>
+  		  		<li><a href="#">旅游</a></li>
+  		  		
+    			</ul>
+  			
+  				<div class="pick"><img src="img/icon/hu.png" />
+  				  <div class="picture"><img src="img/icon/xzapp.png"/></div>
+  				</div>
+  			</div>
+  		</div>	
+  	</div>
+  	<script src="js/cookie.js" type="text/javascript" charset="utf-8"></script>
+  	<script type="text/javascript">
+  		;$(function(){
+	var _gz=$(".gz");var _gzz=$(".gzz");
+   	 _gz.hover(function(){
+  	 _gzz.css("display","block")
+   },function(){
+   _gzz.css("display","none")
+  })
+   	 var _wb2=$(".wb2");
+   	 _wb2.hover(function(){
+   	 _wb2.css("color","#FFA500")
+   	 },function(){
+   	 _wb2.css("color","")
+   	 })
+   	 var _wx2=$(".wx2");
+   	 _wx2.hover(function(){
+   	 _wx2.css("color","#FFA500")
+   	 },function(){
+   	 _wx2.css("color","")
+   	 })
+   	 var _pick=$(".pick");
+   	 var _picture=$(".picture");
+   	 _pick.hover(function(){
+   	 _picture.css("display","block");
+   	 },function(){
+   	 _picture.css("display","none")
+   	 })
+   	 var _sech=$(".sech");
+   	 var _li=_sech.children("li");
+   	 _li.click(function(){
+   	 	var index=$(this).index();
+   	 	_li.eq(index).addClass("sech1").siblings().removeClass("sech1");
+   	 })
+ 	 var _sele=$(".sele");//下拉菜单
+   	    var _sele1=$(".sele1");
+	   		 _sele.hover(function(){
+	   	 	_sele1.css("display","block")
+	   		 },function(){
+	   	 	_sele1.css("display","none")
+	  	 	 })
+	   		 var _p=_sele1.children("p");//下拉滑过后变色
+	   		 _p.hover(function(){
+	   	 	var index=$(this).index();
+	   	   _p.eq(index).css("background","#131413").
+	   	       siblings().css("background","#1314130")
+	   	 },function(){
+	   	 	_p.css("background","#1314130");
+	   	 })
+   	  var _sele3=$(".sele3");//第二个下拉菜单
+   	 var _sele4=$(".sele4");
+   	 _sele3.hover(function(){
+   	 	_sele4.css("display","block")
+   	 },function(){
+   	 	_sele4.css("display","none")
+   	 })
+   	 var _p1=_sele4.children("p");//下拉滑过后变色
+   	 _p1.hover(function(){
+   	 	var index=$(this).index();
+   	   _p1.eq(index).css("background","#131413").
+	   	   siblings().css("background","#1314130")
+   	 },function(){
+   	 	_p1.css("background","#1314130");
+   	 })
+   	 var _sele5=$(".sele5");//第三个下拉菜单
+   	 var _sele6=$(".sele6");
+   	 _sele5.hover(function(){
+   	 	_sele6.css("display","block")
+   	 },function(){
+   	 	_sele6.css("display","none")
+   	 })
+   	 var _p2=_sele6.children("p");//下拉滑过后变色
+   	 _p2.hover(function(){
+   	 	var index=$(this).index();
+   	    _p2.eq(index).css("background","#131413").
+	   	   siblings().css("background","#1314130")
+   	 },function(){
+   	 	_p2.css("background","#1314130");
+   	 })
+   	 if(getCookie(isLogin) == "true"){
+		$("#user").html(getCookie(myUserName));
+		$(".zuce1").html("退出")
+		$(".zuce1").attr("href","javascript:void(0)");
+		
+	}else{
+		$("#user").html("登录");
+		$(".zuce1").html("注册");
+	}
+	
+	$(".zuce1").on("click",function(){		
+		updateCookie(isLogin,"false",5);
+		window.location = "index.html";
+	});
+});
+  	</script>

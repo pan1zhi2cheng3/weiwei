@@ -1,0 +1,248 @@
+/*--------------banner-------------------*/
+.big{width:1200px;margin: 0 auto;text-align: center;}
+.picter,.home,.fitment,.know,.fashion,.hot{width:1200px;}
+.picter{height:360px;margin-top:8px;}
+.banner,.banner2{height:360px;float:left;}
+.banner2{width:264px;background:green;margin-left:16px;}
+/*****************home家居商城************************/
+.home{height:505px;}
+.home-left,.home-right{height:505px;float:left;}
+.home-left{width:226px;background:pink;}/*home左侧,家居商城*/
+.tit{height:64px;background:#fff;font-size: 26px;
+    line-height: 64px;text-align: left;color:#333333;
+    font-weight:300;}
+.lis{ padding-left: 12px;}
+.list1{width:226px;height:6px;background:#339900;} 
+.list2{margin-bottom:12px;} 
+.home-left{background:#7cbb2e;}
+.lis li .jiaju{height:46px;width:195px;
+				text-align: left;
+       			line-height: 46px;
+      			 font-size: 14px;
+      			 color:#fff;
+   				 background:url(../img/icon/jiantou.png)no-repeat 
+   				 right 17px;
+               } 
+.jiaA a{margin-right:19px;color:#fff;text-left:0;font-size:11px;}       
+.jiaA {width:196px;text-align: left;}
+.last{height:97px;}  
+.home-right{width:974px;}
+.tit3,.pic-big{width:974px;}
+.tit3{height:64px;}
+.pic-big{height:439px;
+         border-top:1px solid #7CBB2E;
+         border-bottom:1px solid #eeeeee;
+         }
+.tit3 h3{float:left;width:58px;height:62px;
+         font-weight:100;text-align: center;
+         line-height:70px;margin-right:10px;
+         } 
+.tit3 .jiajucheng{border-bottom:3px solid #339900;}
+.picbig-left{float:left;width:352px;height:430px;
+             padding:9px 11px 0 11px;
+             }
+.picbig-center{width:399px;height:439px;
+               float:left;
+               border-left:1px solid #eeeeee;
+               border-right:1px solid #eeeeee;
+               }
+.picbig-center li{width:199px;height:219px;
+                  float:left;
+                  } 
+.picbig-center .shu{border-left:1px solid #eeeeee;
+                    border-bottom:1px solid #eeeeee;
+                    }
+.picbig-center .yigui{border-right:1px solid #eeeeee;
+                      border-top:1px solid #eeeeee;
+                     } 
+ .yigui img{width:196px;height:210px;}             
+.picbig-right{width:198px;height:439px;
+              float:left;
+              border-right:1px solid #eeeeee;
+              }
+.picbig-right li{width:198px;height:146px;}
+#big1,#big2{display:none;}
+/*********************fitment装修攻略*****************/
+.fitment{height:190px;}
+#tit-big{height:71px;}
+.liucheng .zxlc{width:118px;height:120px;
+                border:none;
+                text-align: center;
+                background:#FFA500;
+                }
+.zxlc a{display: block;
+		color:#fff;letter-spacing: 2px;
+        font-size:16px;
+        margin-top: 40px;
+        }   
+.liucheng li{width:116px;height:118px;
+             margin-right:15px;
+             float:left;
+             border:1px solid #eeeeee;}
+.yanfang1{width:54px;height:71px;
+          padding:23px 33px 0 31px;}
+.yanfang1 img{width:44px;height:44px;
+              padding-left:6px;padding-bottom:13px;}
+.yanfang1 p{font-size:13px;}
+/*****************know装修知识***************************/
+.know{height:440px;}
+.know-left{width:872px;height:408px;
+           margin-top:22px;float:left;} 
+.know-leftTit{width:872px;
+              height:41px;
+              border-bottom:1px solid #131413;}
+.know-leftTit li{float:left;
+                width:124px;height:38px;
+                }
+.know-leftTit a{display:block;
+                width:124px;height:41px;
+                font-size:16px;
+                line-height:41px;
+              }              
+.shangbk{display:block;
+         border-top:3px solid #131413;
+	     border-right:1px solid #131413;
+	     border-bottom:1px solid #fff;
+	     width:124px;height:38px;
+         }  
+.zhongbk{display:block;
+                border-top:3px solid #fff;
+	            border-right:1px solid #fff;
+	            width:124px;height:38px;}
+.xiabk{display:block;
+                border-top:3px solid #fff;
+	            border-right:1px solid #fff;
+	            width:124px;height:38px;}	            
+.know-leftTit a:hover{color:#FFA500;}
+.know-leftCont{width:872px;height:338px;
+               margin-top:31px;}
+               
+.gch,.lit,.lis2{width:872px;}
+.gch{height:166px;margin-bottom:20px; } 
+.gch li{float:left;
+		height: 166px;
+	  	width: 190px;
+      	margin-right:32px;
+        position: relative;}
+.gch .gch4{ margin-right:0;}        					 
+
+.gch li img{width:190px;height:140px;}
+.gch a{width:190px;height:140px;}           
+.gch a span{width:70px;height:22px;
+             background:#FFA500;
+             position:absolute;left:0;top:0;
+             background:#FFA500;
+             color:#fff;}
+.gch h3{font-weight:100;
+	   width:180px;overflow: hidden;
+       white-space: nowrap;
+       text-overflow: ellipsis;
+       font-size:15px;
+       line-height:30px;} 
+.gch h3 a:hover{color:#FFA500;}
+.lit a:hover{color:#FFA500;}
+.lis2 a:hover{color:#FFA500;}
+.lit{height:104px;margin-bottom:15px;} 
+.lit li{float:left;
+        width:275px;height:104px;
+        margin-right:23px;
+        } 
+.lit p{width:275px;height:34px;
+      border-bottom:1px dotted #cccccc;
+      line-height:34px;
+      text-align: left;
+      text-indent: 11px;
+      background:url(../img/icon/dian.png) no-repeat 0px 15px;}        
+.lit .lit1{margin-right:0px;}        
+.lis2{height:32px;background:#f7f7f7;}
+.lis2 li{width:208px;height:32px;
+         float:left;
+         margin-right:10px;
+         line-height:32px;
+         text-align: left;
+         text-indent: 18px;
+         background:url(../img/icon/dian.png) no-repeat 10px 15px;
+        
+         }      
+#leftCont1,#leftCont2{display: none;}         
+                          
+.know-right{width:308px;height:369px;
+            float:left;
+            margin-top:65px;
+            margin-left:18px;} 
+.know-right .zhijiang{width:300px ;
+					height:207px;
+					position: relative;
+					border: 1px solid #dcdcdc;
+					margin-top:28px;}
+.know-right .zhijiang .zhiTop{width:204px;
+							height: 28px;
+							line-height: 28px;
+							border: 1px solid #dcdcdc;
+							margin: 0 auto;
+							margin-top: -15px;
+							background: #fff;
+							font-size: 14px;
+							color: #338800;
+							border-radius:20px;}
+.know-right .zhijiang .ze{width: 260px;
+						height: 42px;
+						margin: 0 auto;
+						border-bottom: 1px dashed #dcdcdc;
+						line-height: 42px;
+						font-size: 14px;
+						margin-bottom: 15px;}
+.know-right .zhijiang .ze span{color: #FF8800;
+								font-weight: 900;
+								font-size: 16px;
+								margin-left: 5px;}	
+.know-right .zhijiang p{text-align: left;
+						margin-left: 20px;
+						height: 14px;}	
+.know-right .zhijiang .w146{width: 146px;
+							height: 40px;
+							display: block;
+							background: url(../img/icon/btn-apply.png);
+							margin-left: 70px;
+							margin-top: 24px;
+							color: #fff;
+							line-height: 40px;
+							text-align: left;
+							font-size: 14px;
+							text-indent: 30px;}				
+/******************fashion装修效果图**********************/           
+.fashion{height:500px;margin:0 auto;}
+.tit6{height:102px;width:1200px;
+      line-height: 140px;}
+.tit7,.tit8{height:102px;float:left;}
+.tit7{width:194px;line-height: 140px;font-size:26px;}
+.tit8 li{width:60px;margin-left:32px;
+         float:left;line-height: 148px;
+         font-size:14px;}
+.tit7 a:hover{color:#FFA500;}   
+.tit8 a:hover{color:#FFA500;}         
+.tit .tit-small li{height:102px;width:280px;
+                   margin-left:32px;float:left;}
+.picture-bg{width:1200px;height:400px;}
+.piclb,.pictwo,.picthree{height:398px;float:left;}
+.piclb{width:590px;background:green;}
+.pictwo{width:280px;margin:0 18px 0 32px;} 
+.pture{margin-top:18px;}
+.picthree{width:280px;}
+.picthree img{width:280px;height:398px;}
+#banner3 img{width:590px;height:400px;} 
+
+/************************hot友情链接********************************/
+.hot{height:230px;margin:0 auto;}
+.hot-lianj{width:1200px;height:90px;
+           font-size:14px;line-height:118px;
+           text-align: left;
+           }  
+#lianjie{width:1200px;height:78px;
+         padding-top:14px;padding-left: 32px;
+         border:1px solid #ECECEC;}         
+#lianjie a{float:left;height:14px;
+           margin-right:24px;
+					 line-height: 0;
+           font-size:14px;margin-top:18px;}           
+#lianjie a:hover{color:#FFA500;}

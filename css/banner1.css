@@ -1,0 +1,109 @@
+@charset "utf-8";
+*{padding: 0;margin: 0;}
+ul,li{
+	list-style: none;
+}
+img{
+	width: 100%;
+	display: block;
+}
+
+.banner{
+	width: 100%;
+	height:360px;
+	overflow: hidden;
+	background-color: #ccc;
+	position: relative;
+}
+
+.banner .bannerList{
+	width: 100%;
+	height:360px;
+}
+.banner .bannerList li{
+	position: absolute;
+	width: 100%;
+	height:360px;
+}
+.banner .bannerList li a.bannerImg{
+	width: 100%;
+	height:100%;
+}
+.banner .bannerList li a.bannerImg img{ 
+	width: 100%;
+	height:100%;
+}
+.banner .bannerList li .bannerText{
+	position: absolute;	
+	top:50px;
+}
+
+.banner .control{
+	position: absolute;
+	top:50%;
+	width: 50px;
+	height: 50px;
+	z-index: 99;
+	margin-top: -40px;
+	background-color: #000;
+	font-size: 40px;
+	line-height: 50px;
+	color: #fff;
+	opacity: .3;
+	display: none;
+}
+.banner:hover .control{display: block;}
+.banner #nextBtn{
+	right:0px;
+}
+.banner #prevBtn{
+	left:0px;
+}
+.banner .control:hover{opacity: .7;}
+.banner .buddle{
+	position: absolute;
+	bottom: 15px;
+	left:50%;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+	z-index: 99;
+}
+
+.banner .buddle li{
+	width: 25px;
+	height: 10px;
+	float: left;
+	background-color: #fff;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;	
+	margin-right:6px;
+	cursor: pointer;
+}
+.banner .buddle li.active{
+	background-color: #ff4400;
+}
+.banner .buddle1{background: #000;
+				 opacity: .7;
+				 width: 75px;
+				 height: 20px;
+				 border-radius:20px ;
+				 padding-left: 15px;}
+.banner .buddle1 li{
+	width: 10px;
+	border-radius:50% ;
+	margin-top: 5px;
+	color: #999;
+}
+#banner1{
+	width:920px;
+}
+
+#banner2{
+	width:264px;margin-left:16px;
+}
+#banner3{
+	width:590px;height:400px;}
